@@ -3,6 +3,16 @@ padding: 0;
 margin: 0;
 }
 
+
+.doto {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+
 body{
     background-color: blueviolet;
     
@@ -14,6 +24,10 @@ main{
 
 h1{
     color: rgb(26, 17, 83);
+    font-family: "Doto", sans-serif;
+    font-weight: 900;
+  font-style: normal;
+  text-align: center;
 }
 
 
@@ -27,7 +41,9 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin: 8px;
+margin:10px;
+padding: 12px;
+border: 3px solid rgb(13, 11, 49);
 transition: all 0.4s ease-in-out;
 }
 
@@ -42,32 +58,48 @@ transition: all 0.4s ease-in-out;
 }
 
 .tarjeta img{
-width: 80%;
-object-fit: cover;
-border-radius: 10%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5%;
 }
 
 .tarjeta p{
     color: black;
-    font-size: 20px;
+    
 }
 
 #vaso {
     color: blue;
+    font-family: "Doto", sans-serif;
+    font-weight: 600;
+  font-style: normal;
 }
 
 #GR {
     color: rgb(138, 27, 8);
+    font-family: "Doto", sans-serif;
+    font-weight: 600;
+  font-style: normal;
 }
 
 #Leu {
     color: rgb(44, 115, 115);
+    font-family: "Doto", sans-serif;
+    font-weight: 600;
+  font-style: normal;
 }
 
 #Neutrofilo {
     color: rgb(74, 36, 109);
+    font-family: "Doto", sans-serif;
+    font-weight: 600;
+  font-style: normal;
 }
 
 #Eosinofilo {
     color: rgb(255, 0, 0);
+    font-family: "Doto", sans-serif;
+    font-weight: 600;
+  font-style: normal;
 }
